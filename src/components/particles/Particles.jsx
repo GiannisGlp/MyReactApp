@@ -5,6 +5,7 @@ import "./Particles.css";
 const Myparticles = () => {
   return (
     <Particles
+      className="particles-canvas "
       params={{
         particles: {
           number: {
