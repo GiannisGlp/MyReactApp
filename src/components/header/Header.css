@@ -1,0 +1,36 @@
+.header-wrapper {
+  position: relative;
+  background: url(../../bgdev.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1 {
+  color: white;
+}
+
+.typed-text {
+  font-size: 2rem;
+  color: orange;
+}
+
+.btn-main {
+  border: 1px solid red;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  color: white;
+}
