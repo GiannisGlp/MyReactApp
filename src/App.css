@@ -1,0 +1,17 @@
+@media (max-width: 770px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+@media (max-width: 770px) {
+  .main-info h1 {
+    font-size: 1.6rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+  .navbar-brand {
+    width: 7rem;
+  }
+}
