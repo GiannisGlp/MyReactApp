@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
 .main-info h1 {
   color: white;
@@ -28,9 +29,17 @@
 }
 
 .btn-main {
-  border: 1px solid red;
+  margin-block-end: auto;
+  border: 1px solid orange;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   margin: 2rem;
   color: white;
+}
+
+.btn-main:hover {
+  text-decoration: none;
+  background-color: orange;
+  color: black;
+  transition: 0.4s ease-in-out;
 }

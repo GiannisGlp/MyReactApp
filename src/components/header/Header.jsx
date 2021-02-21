@@ -15,9 +15,10 @@ const Header = () => {
             "Facebook ads SMM",
             "Google ads",
           ]}
-          typeSpeed={40}
+          typeSpeed={60}
           backSpeed={60}
         />
+
         <a href="#" className="btn-main">
           Contact Me
         </a>
