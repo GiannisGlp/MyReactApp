@@ -8,10 +8,10 @@ const Myparticles = () => {
       params={{
         particles: {
           number: {
-            value: 30,
+            value: 35,
             density: {
               enable: true,
-              value_area: 900,
+              value_area: 800,
             },
           },
           shape: {
