@@ -14,6 +14,13 @@ const Myparticles = () => {
               value_area: 900,
             },
           },
+          shape: {
+            type: "square",
+            stroke: {
+              width: 5,
+              color: "#f9ab00",
+            },
+          },
         },
       }}
     />
