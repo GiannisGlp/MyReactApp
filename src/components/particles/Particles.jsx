@@ -9,7 +9,7 @@ const Myparticles = () => {
       params={{
         particles: {
           number: {
-            value: 35,
+            value: 30,
             density: {
               enable: true,
               value_area: 800,
@@ -21,6 +21,9 @@ const Myparticles = () => {
               width: 5,
               color: "#f9ab00",
             },
+          },
+          line_linked: {
+            enable: false,
           },
         },
       }}

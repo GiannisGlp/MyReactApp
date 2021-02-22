@@ -1,6 +1,11 @@
 .header-wrapper {
   position: relative;
-  background: url(../../images/bgdev.jpg) no-repeat;
+  background: rgb(103, 66, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(103, 66, 182, 0.9192051820728291) 50%,
+    rgba(0, 255, 235, 0.5046393557422969) 100%
+  );
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -25,21 +30,41 @@
 
 .typed-text {
   font-size: 2rem;
-  color: orange;
+  background: linear-gradient(to right, orange, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .btn-main {
-  margin-block-end: auto;
-  border: 1px solid orange;
-  border-radius: 0;
-  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  margin: 2rem;
+  background-image: linear-gradient(
+    to right,
+    #283048 0%,
+    #859398 51%,
+    #283048 100%
+  );
+
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
 }
 
 .btn-main:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
   text-decoration: none;
-  background-color: orange;
-  color: black;
-  transition: 0.4s ease-in-out;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
