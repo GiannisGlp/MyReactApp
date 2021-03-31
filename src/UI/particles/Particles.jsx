@@ -2,10 +2,10 @@ import React from "react";
 import Particles from "react-particles-js";
 import "./Particles.css";
 
-const Myparticles = () => {
+const myParticles = () => {
   return (
     <Particles
-      className="particles-canvas "
+      className="particles-canvas"
       params={{
         particles: {
           number: {
@@ -31,4 +31,4 @@ const Myparticles = () => {
   );
 };
 
-export default Myparticles;
+export default myParticles;

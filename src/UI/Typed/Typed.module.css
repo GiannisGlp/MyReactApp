@@ -1,0 +1,11 @@
+.Typed {
+  width: 50%;
+  height: 30%;
+}
+.TypedText {
+  font-size: 2rem;
+  background: linear-gradient(to right, orange, yellow, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}

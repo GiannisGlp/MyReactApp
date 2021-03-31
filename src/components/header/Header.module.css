@@ -1,0 +1,13 @@
+.Wrapper {
+  position: relative;
+  background: rgb(103, 66, 182);
+  background: linear-gradient(
+    90deg,
+    rgba(103, 66, 182, 0.9192051820728291) 50%,
+    rgba(0, 255, 235, 0.5046393557422969) 100%
+  );
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  max-width: 100%;
+}
